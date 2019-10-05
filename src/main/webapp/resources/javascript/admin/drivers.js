@@ -1,6 +1,6 @@
 $clickUpdate = function(id) {
 	var data = {}
-	data["id"] = $("#id_" + id).val();
+	data["id"] = $("#id_" + id).text();
 	data["name"] = $("#name_" + id).val();
 	data["number"] = $("#number_" + id).val();
 	data["avatar"] = $("#avatar_" + id).val();
