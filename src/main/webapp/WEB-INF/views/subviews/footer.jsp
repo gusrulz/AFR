@@ -7,5 +7,4 @@
 <!-- Bootstrap core JavaScript -->
 <script type="text/javascript" src="/webjars/jquery/3.3.1/jquery.min.js"></script>
 <script type="text/javascript" src="/webjars/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-<script type="text/javascript" src="/resources/javascript/moment.js"></script>
 <script type="text/javascript" src="/webjars/font-awesome/5.4.1/js/all.min.js"></script>
