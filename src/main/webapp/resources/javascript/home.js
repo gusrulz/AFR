@@ -27,22 +27,22 @@ var x = setInterval(function() {
 	  
 	  clockDays.innerHTML = days < 10 ? "0" + days : days;
 	  if (days == 1) {
-		  document.getElementById("days-text").innerHTML = "day";
+		  document.getElementById("days-text").innerHTML = "Day";
 	  } else {
-		  document.getElementById("days-text").innerHTML = "days";
+		  document.getElementById("days-text").innerHTML = "Days";
 	  }
   }
   document.getElementById("clock-hours").innerHTML = hours < 10 ? "0" + hours : hours;
   if (hours == 1) {
-	  document.getElementById("hrs-text").innerHTML = "hr";
+	  document.getElementById("hrs-text").innerHTML = "Hr";
   } else {
-	  document.getElementById("hrs-text").innerHTML = "hrs";
+	  document.getElementById("hrs-text").innerHTML = "Hrs";
   }
   document.getElementById("clock-minutes").innerHTML = minutes < 10 ? "0" + minutes : minutes;
   if (minutes == 1) {
-	  document.getElementById("mins-text").innerHTML = "min";
+	  document.getElementById("mins-text").innerHTML = "Min";
   } else {
-	  document.getElementById("mins-text").innerHTML = "mins";
+	  document.getElementById("mins-text").innerHTML = "Mins";
   }
   
   var clockSecs = document.getElementById("clock-seconds");
@@ -54,9 +54,9 @@ var x = setInterval(function() {
 	  clockSecs.innerHTML = seconds < 10 ? "0" + seconds : seconds;
 	  
 	  if (seconds == 1) {
-		  document.getElementById("secs-text").innerHTML = "sec";
+		  document.getElementById("secs-text").innerHTML = "Sec";
 	  } else {
-		  document.getElementById("secs-text").innerHTML = "secs";
+		  document.getElementById("secs-text").innerHTML = "Secs";
 	  }
   }
 
