@@ -9,6 +9,7 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.TimeZone;
 import java.util.Collections;
 import javax.servlet.http.HttpServletRequest;
 
@@ -121,6 +122,7 @@ public class HomeController {
 		Collections.sort(sortedTeamStandings, Collections.reverseOrder());
 		
 		mv.addObject("nextRace", nextRace);
+		mv.addObject("timeZone", TimeZone.getDefault());
 		mv.addObject("lastRace", lastRace);
 		mv.addObject("lastRaceResults", lastRaceResults);
 		mv.addObject("driverStandings", sortedDriverStandings);
