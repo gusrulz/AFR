@@ -1,0 +1,151 @@
+html > * {
+	font-family: "Titillium Web", sans-serif;
+}
+
+.spacer-row {
+	margin-top: 25px;
+}
+
+.next-race {
+	margin-left: 5px;
+}
+
+.next-race > * {
+	display: block;
+}
+
+.afr-site {
+	opacity: 0.5;
+	color: #ffffff;
+}
+
+.afr-site:hover {
+	opacity: 0.7;
+	color: #ffffff;
+}
+
+.current-site {
+	opacity: 1!important;
+}
+
+@media(min-width: 992px) {
+	.next-race-right {
+		margin-left: 5px;
+		padding-top: 25px;
+	}
+	
+	.extra-margin {
+		margin-left: 9px;
+	}
+}
+
+@media(max-width: 991px) {
+	.next-race-right {
+		margin-left: 5px;
+	}
+	
+	.extra-margin {
+		margin-left: 8px;
+	}
+}
+
+.next-race-right > * {
+	display: block;
+}
+
+.flag-med {
+	max-width: 75px;
+	height: auto;
+	border: 1px solid #ffffff;
+}
+
+.flag-small {
+	max-width: 40px;
+	height: auto;
+}
+
+.countdown {
+	margin-top: 56px;
+	background-color: #000000;
+	color: #ffffff;
+}
+
+.clock-row {
+	text-align: center;
+}
+
+.clock-heading {
+	background-color: #5b5f63;
+	border-radius: 10px;
+}
+
+.clock {
+	margin: 5px;
+	display: inline-block;
+}
+
+.clock-wrapper {
+	display: table;
+	background-color: #343a40;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+.clock > * {
+	display: block;
+}
+
+.clock-elem {
+	text-align: center;
+}
+
+.clock-num {
+	font-weight: bold;
+	font-size: 26pt;
+}
+
+.clock-text {
+	font-weight: lighter;
+}
+
+.table {
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid #dee2e6;
+}
+
+.table td {
+	border-left: 1px solid #dee2e6;
+	border-right: 1px solid #dee2e6;
+}
+
+.table-hover tbody tr:hover {
+	background-color: rgba(0,0,0,.4);
+	color: #ffffff;
+}
+
+.position {
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+.team {
+	margin-left: 5px;
+}
+
+.name-primary {
+	font-weight: bold;
+	font-size: 14pt;
+	margin-left: 5px;
+}
+
+.name-secondary {
+	font-weight: lighter;
+	font-size: 10pt;
+	margin-left: 5px;
+}
+
+.points {
+	float: right;
+}

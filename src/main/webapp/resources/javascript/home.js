@@ -23,8 +23,6 @@ var x = setInterval(function() {
   if (days == 0 && hours == 0) {
 	  document.getElementById("daysDiv").setAttribute("style", "display: none;");
   } else {
-	  document.getElementById("daysDiv").setAttribute("style", "display: block;");
-	  
 	  clockDays.innerHTML = days < 10 ? "0" + days : days;
 	  if (days == 1) {
 		  document.getElementById("days-text").innerHTML = "Day";
@@ -50,7 +48,6 @@ var x = setInterval(function() {
   if (days != 0 || hours != 0) {
 	  document.getElementById("secondsDiv").setAttribute("style", "display: none;");
   } else {
-	  document.getElementById("secondsDiv").setAttribute("style", "display: block;");
 	  clockSecs.innerHTML = seconds < 10 ? "0" + seconds : seconds;
 	  
 	  if (seconds == 1) {
