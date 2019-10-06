@@ -137,14 +137,14 @@
 							<c:forEach items="${lastRaceResults}" var="result" varStatus="standingStatus">
 								<tr>
 									<td>
-										<span class="position">${result.index + 1}</span>
+										<span class="position">${standingStatus.index + 1}</span>
 										<c:if test="${standingStatus.index + 1 < 10}">
 											<span class="extra-margin"></span>
 										</c:if>
-										<span class="team" style="color:${standing.team.colour}"><i class="fas fa-square"></i></span>
+										<span class="team" style="color:${result.team.colour}"><i class="fas fa-square"></i></span>
 										<span class="name-primary">${result.driver.name}</span>
 										<span class="name-secondary">${result.team.name}</span>
-										<span class="points"><fmt:formatNumber type="number" minFractionDigits="0" value="${standing.points}"/> PTS</span>
+										<span class="points"><fmt:formatNumber type="number" minFractionDigits="0" value="${result.points}"/> PTS</span>
 									</td>
 								</tr>
 							</c:forEach>
