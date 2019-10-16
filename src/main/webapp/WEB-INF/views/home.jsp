@@ -45,7 +45,7 @@
 		<!-- Page Content -->
 		
 		<div class="countdown navbar navbar-expand-lg navbar-light">
-			<span id="race-time" hidden=true><fmt:formatDate pattern="dd MMM yyyy hh:mm:ss" value="${nextRace.date}"/> +<fmt:formatNumber type="number" maxFractionDigits="0" value="${(timeZone.getRawOffset() + timeZone.getDSTSavings()) / 3600000}"/>00</span>
+			<span id="race-time" hidden=true><fmt:formatDate pattern="dd MMM yyyy HH:mm:ss" value="${nextRace.date}"/> +<fmt:formatNumber type="number" maxFractionDigits="0" value="${(timeZone.getRawOffset() + timeZone.getDSTSavings()) / 3600000}"/>00</span>
 			<div class="navbar-nav">
 				<div class="next-race">
 					<span><fmt:formatDate pattern="dd MMMM" value="${nextRace.date}" /></span>
