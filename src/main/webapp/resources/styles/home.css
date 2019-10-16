@@ -157,3 +157,16 @@ body {
 .points {
 	float: right;
 }
+
+.socials > * {
+	font-size: 20pt;
+	color: #ffffff !important;
+}
+
+.socials > a {
+	margin: 0 5px;
+}
+
+.socials svg:hover {
+	opacity: 0.5;
+}
